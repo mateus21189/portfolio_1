@@ -1,0 +1,403 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    height: 2700px;
+    background-color: rgb(26, 26, 58);
+}
+li{
+    display: inline-flex;
+    margin: 15px;
+    margin-right: 55px;
+    margin-top: 40px;
+}
+li a:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 5px;
+
+}
+.prt2{
+    margin-top: 60px;
+    display: inline-block;
+}
+.part2{
+    display: flex;
+    justify-content:center ;
+}
+ul{
+    margin-top: -5px;
+    text-align: end;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    border: 2px solid azure;
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navRespon{
+    display: none;
+    color: azure;
+    z-index: 10; 
+}
+#compu{
+    margin-right: 100px;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+
+}
+main{
+    background-image: url(scr/papelParede.jpg);
+    margin-top: -18px;
+    height: 790px;
+    box-shadow: 3px 5px 8px black;
+}
+
+#meChamo {
+    color: aliceblue;
+    margin-top: 75px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.aprese h2{
+    color: aliceblue;
+    font-size: 45px;
+    text-decoration: underline;
+    padding: -45px;
+}
+.aprese h3{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: -25px;
+
+}
+.aprese{
+    margin-left: -10px;
+    padding: 50px;
+}
+#compu img{
+    height: 300px;
+    width: 300px;
+    margin-top: -280px;
+    margin-left: 900px;
+    display: flex;
+}
+
+.downloadCv {
+    background-color: black;
+    border: 3px solid azure;
+    width: 140px;
+    height: 35px;
+    font-size: 8px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.downloadCv a{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.trem{
+    display: inline-block;
+    margin-left: 100px;
+}
+/*-----------------------------------------*/
+.part3{
+    display: flex;
+    justify-content: center;
+}
+.prt3{
+    width: 80%;
+    height: 620px;
+    background-color: rgb(20, 20, 19);
+    border-radius: 10px;
+    margin-top: 350px;
+}
+.sobre {
+    text-align: center;
+    color: azure;
+}
+.sobreApre{
+    color: azure;
+    width: 70%;
+    margin-left: 80px;
+
+}
+.prt3_1{
+    display: inline-block;
+    margin-top: 100px;
+}
+.prt3_2{
+    margin-top: 250px;
+    font-size: 20px;
+    width: 100%;
+}
+.prt3_1 img{
+    margin-left: -45px;
+    width: 450px;
+    height: 450px;
+}
+.prt3_3{
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+/*----------------------------------*/
+.prt4{
+    display: flex;
+    justify-content: center;
+}
+.prt4_1{
+    display: inline-block;
+    justify-content: center;
+}
+.fotoPng{
+    display: inline-block;
+    background-color: rgb(20, 20, 19);
+    border-radius: 5px;
+    margin: 25px;
+    padding: 8px;
+}
+.prt4_1 :hover{
+    transform: scale(1.1);
+}
+.part4 h1{  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+.fotoPng img{
+    width: 150px;
+    height: 150px;
+}
+/*-----------------------------------------*/
+.pjt{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.prt5{
+    display: flex;
+    justify-content: center;
+}
+.prt5_1{
+    display: inline-block;
+}
+
+.project{
+    background-color: rgb(20, 20, 19);
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 15px;
+    margin: 8px;
+}
+.project h3{
+    color: azure;
+    font-size: 15px;
+    text-align: center;
+    margin: 8px;
+}
+.project img{
+    width: 330px;
+    height: 150px;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 3px;
+}
+.site{
+    background-color: rgb(26, 26, 58);
+    border-radius: 7px;
+    color: azure;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 9px;
+}
+.reposi{
+    background-color: rgb(26, 26, 58);
+    border-radius: 7px;
+    color: azure;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 86px;
+}
+/*------------------------------------------*/
+.part6{
+    width: 100%;
+    background-color: black;
+    height: 292px;
+    margin-top: 200px;
+}
+.prt6{
+    display: flex;
+    justify-content: center;
+}
+.contato{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.prt6_1{
+    display: inline-block;
+    margin: 70px;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.prt6_1 :hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.prt6_1 a{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    background-color:rgb(26, 26, 58);
+    padding: 12px;
+    height: 150px;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+/*----------------------------------*/
+@media only screen and (max-width: 600px) {
+    body{
+        display: block;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        
+    }
+    main{
+        display: block;
+        margin-top: -95px;
+        width: 120%;
+        
+    }
+    /*----------------------*/
+    .part2{
+        display: block;
+        margin-top: 90px;
+    }
+    li{
+        margin: 8px;
+        text-align: center;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        left: 320px;
+        top: 15px;
+        cursor: pointer;
+        color: beige;     
+        z-index: 1;
+        font-size: 55px;
+        padding: 4px;    
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+        box-shadow: 3px 3px 15px azure;
+    }
+    .nav-links{
+        display: none;
+        position: absolute;
+        text-align: end;
+        flex-direction: column;
+        z-index: 1;
+        height: 180px;
+        width: 438px;
+        margin-top: 80px;
+    }
+    #nome, #full{
+        font-size: 30px;
+        margin: 5px;
+    }
+    .aprese{
+        margin-top: -15px;
+    }
+    .downloadCv{
+        margin-top: 190px;
+        margin-left: 50px;
+        width: 85%;
+        text-align: center;
+    }
+    #compu{
+        margin-top: 10px;
+        margin-left: -800px;
+    }
+    #compu img{
+        width: 250px;
+        height: 250px;
+    }
+/*------------------------------------*/
+    .prt3_1 img{
+        width: 250px;
+        height: 250px;
+        
+    }
+    .prt3_1{
+        margin-left: 105px;
+    }
+    .prt3_2{
+        margin-top: 320px;
+        margin-left: -330px;
+        font-size: 15px;
+    }
+/*----------------------------------------*/
+    .prt4{
+        display: block;
+        margin: 0px 15px;
+    }
+    .prt4_1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px -10px;
+    }
+
+/*-------------------------------------------*/
+    
+    .prt5{
+        display: block;
+        margin: 0px 65px;
+    }
+    .site,.reposi{
+        font-size: 16px;
+        padding: -2px;
+    }
+    .prt5_1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px -15px;
+    }
+    .reposi{
+        margin-left: 52px;
+    }
+/*--------------------------------*/
+    .part6{
+        height: 240px;
+    }
+    .prt6_1{
+        display: block;
+        margin: 18px;
+        color: rgb(255, 255, 255);
+    }
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    /* Estilos específicos para o iPhone XR em modo retrato */
+    body {
+        overflow-x: hidden;
+    }
+}
